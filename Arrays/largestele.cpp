@@ -1,40 +1,40 @@
 // Naive Approach
-/*
-#include <iostream>
 
-using namespace std;
+// #include <iostream>
 
-int largestele(int arr[], int n)
-{
+// using namespace std;
 
-    for (int i = 0; i < n; i++)
-    {
-        bool flag = true;
+// int largestele(int arr[], int n)
+// {
 
-        for(int j = i; j < n; j++)
-        {
-            if (arr[j] > arr[i])
-            {
-                flag = false;
-                break;
-            }
-        }
-        if (flag == true)
-        {
-            return i;
-        }
-    }
-        return -1;
+//     for (int i = 0; i < n; i++)
+//     {
+//         bool flag = true; // We set the flag as true as it means we have declared that arr[0] element is largest.
+
+//         for(int j = i; j < n; j++)
+//         {
+//             if (arr[j] > arr[i])
+//             {
+//                 flag = false; // When we find a element greater then the existing assumed element then we set the flag as false and come out of te loop.
+//                 break;
+//             }
+//         }
+//         if (flag == true) // If we have traversed through the whole loop and no greater element is found then this is the largest element. 
+//         {
+//             return i;
+//         }
+//     }
+//         return -1;
     
-}
+// }
 
-int main()
-{
-    int sample[6] = {12, 34, 45, 6, 8, 9};
-    cout << largestele(sample, 6);
-    return 0;
-}
-*/
+// int main()
+// {
+//     int sample[6] = {12, 34, 45, 6, 8, 9};
+//     cout << largestele(sample, 6);
+//     return 0;
+// }
+
 
 
 
